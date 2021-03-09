@@ -1,0 +1,6 @@
+:root {
+  --grey-lt: #dfdfdf;
+}
+body {
+  background-color:var(--grey-lt);
+}
