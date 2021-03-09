@@ -1,6 +1,17 @@
 :root {
-  --grey-lt: #dfdfdf;
+  /* Colors */
+  --primary: #222222;
+  --primary-lt: #dfdfdf;
+
+  /* Fonts */
+  --font-default: sans-serif;
 }
+
+html, body, h1, h2, h3, h4, h5, h6, p, span {
+  font-family: var(--font-default);
+  color: var(--primary)
+}
+
 body {
-  background-color:var(--grey-lt);
+  background-color:var(--primary-lt);
 }
