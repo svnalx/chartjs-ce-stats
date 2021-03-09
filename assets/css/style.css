@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --primary: #222222;
-  --primary-lt: #dfdfdf;
+  --primary-light: #dfdfdf;
 
   /* Fonts */
   --font-default: sans-serif;
@@ -9,9 +9,9 @@
 
 html, body, h1, h2, h3, h4, h5, h6, p, span {
   font-family: var(--font-default);
-  color: var(--primary)
+  color: var(--primary);
 }
 
 body {
-  background-color:var(--primary-lt);
+  background-color:var(--primary-light);
 }
